@@ -15,12 +15,10 @@
 A reverse proxy is recommended because some tools rely on HTTPS (WebCrypto API).&#13;
 &#13;
 Added features:&#13;
-- Almost all tools PR, 192 of mine, of original it-tools&#13;
-- 95% of issues if original it-tools&#13;
-- Full UI translation in many language (Google Translated)&#13;
-- Many new tools&#13;
-- Many bug fixes and enhancements&#13;
-- Many customizations (Docker version), see below&#13;
+- Almost all tool PRs implemented from original&#13;
+- 95% of issues fixed from original&#13;
+- Full UI translation in many languages (Google translated)&#13;
+- Many customizations (Docker version), see below:&#13;
 &#13;
 Filter tools and add home custom content(https://github.com/sharevb/it-tools#filter-tools-and-add-home-custom-content)&#13;
 &#13;
@@ -28,7 +26,7 @@ Add custom external tools(https://github.com/sharevb/it-tools#add-custom-externa
 &#13;
 Setting default tools parameters / default UI language at runtime(https://github.com/sharevb/it-tools#setting-default-tools-parameters--default-ui-language-at-runtime)&#13;
 &#13;
-&amp;lt;3 Consider supporting the developer(https://github.com/sharevb/it-tools#pr-welcome)</Overview>
+Consider supporting the developer(https://github.com/sharevb/it-tools#pr-welcome)</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
@@ -36,11 +34,11 @@ Setting default tools parameters / default UI language at runtime(https://github
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1774647843</DateInstalled>
+  <DateInstalled>1774648319</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Web UI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <Config Name="Customizations" Target="/usr/share/nginx/html" Default="" Mode="rw" Description="directory for custom content and modifying default settings (more info: links in the overview or click on the project page)&amp;lt;br&amp;gt;*you can remove this mount if you only want the defaults*" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/it-tools</Config>
+  <Config Name="Path: /usr/share/nginx/html" Target="/usr/share/nginx/html" Default="" Mode="rw" Description="Only needed if you want to add custom tools or modify default settings (see Overview)" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/it-tools</Config>
   <TailscaleStateDir/>
 </Container>
