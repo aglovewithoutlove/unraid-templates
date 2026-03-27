@@ -10,21 +10,12 @@
   <Support>https://github.com/sharevb/it-tools/issues</Support>
   <Project>https://github.com/sharevb/it-tools</Project>
   <ReadMe/>
-  <Overview>This is a fork of the original it-tools because it appears to be no longer maintained.&#13;
-&#13;
-A reverse proxy is recommended because some tools rely on HTTPS (WebCrypto API).&#13;
-&#13;
-Added features:&#13;
+  <Overview>This is a fork of the original it-tools with many changes:&#13;
 - Almost all tool PRs implemented from original&#13;
 - 95% of issues fixed from original&#13;
 - Full UI translation in many languages (Google translated)&#13;
-- Many customizations (Docker version), see below:&#13;
 &#13;
-Filter tools and add home custom content(https://github.com/sharevb/it-tools#filter-tools-and-add-home-custom-content)&#13;
-&#13;
-Add custom external tools(https://github.com/sharevb/it-tools#add-custom-external-tools)&#13;
-&#13;
-Setting default tools parameters / default UI language at runtime(https://github.com/sharevb/it-tools#setting-default-tools-parameters--default-ui-language-at-runtime)&#13;
+A reverse proxy is recommended because some tools rely on HTTPS (WebCrypto API).&#13;
 &#13;
 Consider supporting the developer(https://github.com/sharevb/it-tools#pr-welcome)</Overview>
   <Category>Tools:</Category>
@@ -34,7 +25,7 @@ Consider supporting the developer(https://github.com/sharevb/it-tools#pr-welcome
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1774648754</DateInstalled>
+  <DateInstalled>1774649334</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
