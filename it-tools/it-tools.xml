@@ -34,11 +34,10 @@ Consider supporting the developer(https://github.com/sharevb/it-tools#pr-welcome
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1774648319</DateInstalled>
+  <DateInstalled>1774648754</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Web UI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <Config Name="Path: /usr/share/nginx/html" Target="/usr/share/nginx/html" Default="" Mode="rw" Description="Only needed if you want to add custom tools or modify default settings (see Overview)" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/it-tools</Config>
   <TailscaleStateDir/>
 </Container>
