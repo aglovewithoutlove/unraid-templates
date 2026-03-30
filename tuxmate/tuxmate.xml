@@ -12,7 +12,7 @@
   <ReadMe/>
   <Overview>TuxMate is a simple web tool that generates install scripts for any Linux distro. Pick your apps, copy the command, done.</Overview>
   <Category>Tools:</Category>
-  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/aglovewithoutlove/unraid-templates/48bbe3fbe8266b2397baf35f37d8f6e530451f55/tuxmate/tuxmate.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
