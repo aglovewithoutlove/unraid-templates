@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon></Icon>
+  <Icon>https://raw.githubusercontent.com/aglovewithoutlove/unraid-templates/refs/heads/main/profile.png</Icon>
   <Profile>
-    Just trying to help out by adding templates for projects that I think are neat!
+    Just trying to help out by adding missing templates for projects that I think are neat!
   </Profile>
 </Maintainer>
