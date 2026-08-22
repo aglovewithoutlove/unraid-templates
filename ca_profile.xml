@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Maintainer>
-  <Icon>https://raw.githubusercontent.com/aglovewithoutlove/unraid-templates/refs/heads/main/profile.png</Icon>
+<CommunityApplications>
   <Profile>
     Just trying to help out by adding missing templates for projects that I think are neat!
   </Profile>
-</Maintainer>
+  <Icon>https://raw.githubusercontent.com/aglovewithoutlove/unraid-templates/refs/heads/main/profile.png</Icon>
+  <WebPage>https://github.com/aglovewithoutlove/unraid-templates</WebPage>
+</CommunityApplications>
